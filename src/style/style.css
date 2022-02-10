@@ -1,0 +1,91 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #303030;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NavBar */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    justify-content: space-around;
+}
+
+.navbar-brand {
+    color: red;
+}
+
+/* Main */
+
+main {
+    background-color: #303030;
+}
+
+/* Carousel */
+
+.carousel-indicators {
+    background-color: red;
+}
+
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption h5 {
+    color: red;
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+}
+
+.carousel-caption p {
+    padding-bottom: 70px;
+}
+
+.d-md-block {
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 5px;
+}
+
+/* Blog */
+
+.polaroid {
+    background-color: black;
+    padding: 15px 15px 40px;
+    color: white;
+}
+
+.polaroid h2 {
+    color: red;
+    font-size: 25px;
+}
+
+.photo {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+.blog_container {
+    background-color: #303030;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}

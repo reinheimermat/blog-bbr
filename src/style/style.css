@@ -13,6 +13,10 @@ body {
     padding: 0px;
 }
 
+section {
+    background-color: #303030;
+}
+
 /* NavBar */
 
 .navbar {
@@ -78,6 +82,17 @@ main {
 
 /* Blog */
 
+.blog_container {
+    background-color: #303030;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
 .polaroid {
     background-color: black;
     padding: 15px 15px 40px;
@@ -93,15 +108,4 @@ main {
     width: 100%;
     height: 290px;
     object-fit: cover;
-}
-
-.blog_container {
-    background-color: #303030;
-    max-width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-    justify-content: center;
-    margin: auto;
-    padding: 20px;
 }

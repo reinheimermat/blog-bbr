@@ -2,6 +2,11 @@
 
 
 > Status: Em Desenvolvimento... ⚠️
+
+![Matheus](https://img.shields.io/github/license/reinheimermat/Blog-B.B.R.svg)
+
+[![link-site](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://reinheimermat.github.io/index.html)
+
 ### Blog BBR, Seu blog e portal sobre contéudo barba, cabelo, e muito mais conteúdo masculino!
 
 ## Criadores do projeto:
@@ -21,8 +26,6 @@
 [![sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)
 [![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
 
-![Matheus GitHub](https://github-readme-stats.vercel.app/api/top-langs/?username={reinheimermat}&theme=blue-green
-)
 ## How to run the application:
 
 1) run shell: composer install

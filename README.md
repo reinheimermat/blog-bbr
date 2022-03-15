@@ -21,7 +21,7 @@
 [![sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)
 [![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
 
-![Matheus GitHub](https://github-readme-stats.vercel.app/api/top-langs/?username={username}&theme=blue-green
+![Matheus GitHub](https://github-readme-stats.vercel.app/api/top-langs/?username={reinheimermat}&theme=blue-green
 )
 ## How to run the application:
 

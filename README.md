@@ -2,53 +2,31 @@
 
 
 > Status: Developing ⚠️
-### It is a web application planned by me, where I perform the CRUD of Calisthenics Movements.
+### Blog BBR, Seu blog e portal sobre contéudo barba, cabelo, e muito mais conteúdo masculino!
 
-## Some fields in main Model is:
+## Criadores do projeto:
+ + Raul Konrath
+ + Matheus Reinheimer
+ + Lucas Lisboa
 
-+ name 
-+ description
-+ repetation num
-+ sequency num
-+ dificult category
-+ i know
-+ user_id
-+ image
-  
-Also that, has a User with this fields:
+## Projeto Hospedado:
 
-+ name
-+ email
-+ cpf
-+ birth
-+ active
+* <a href="#">https://reinheimermat.github.io/index.html</a>
 
-## In addition to CRUD, I implement other features such as:
-
-* See the more recently movement created, using Cookie.
-* Entire verification system to validate forms with personalized messages.
-* Message of success when create a movement, using Session Flash.
-* Profile User editable.
-
-## This features are in developing:
-
-- Search for movements by name and/or dificulted category.
-- Email verification.
-
-## Technologies Used:
+## Tecnologias Utilizadas:
 
 <table>
   <tr>
-    <td>PHP</td>
-    <td>Laravel</td>
-    <td>Composer</td>
-    <td>MySql</td>
+    <td>JavaScript</td>
+    <td>HTML</td>
+    <td>CSS</td>
+    <td>Bootstrap</td>
   </tr>
   <tr>
-    <td>6.*</td>
-    <td>7.4</td>
-    <td>2.0</td>
-    <td>8.0</td>
+    <td>v6</td>
+    <td>v5</td>
+    <td>v3</td>
+    <td>v5</td>
   </tr>
 </table>
 

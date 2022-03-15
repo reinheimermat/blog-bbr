@@ -1,7 +1,7 @@
 ![header](https://user-images.githubusercontent.com/79872570/158429227-5527f95d-997e-4100-bfd6-38e8cc6dcb8d.png)
 
 
-> Status: Developing ⚠️
+> Status: Em Desenvolvimento... ⚠️
 ### Blog BBR, Seu blog e portal sobre contéudo barba, cabelo, e muito mais conteúdo masculino!
 
 ## Criadores do projeto:
@@ -15,20 +15,11 @@
 
 ## Tecnologias Utilizadas:
 
-<table>
-  <tr>
-    <td>JavaScript</td>
-    <td>HTML</td>
-    <td>CSS</td>
-    <td>Bootstrap</td>
-  </tr>
-  <tr>
-    <td>v6</td>
-    <td>v5</td>
-    <td>v3</td>
-    <td>v5</td>
-  </tr>
-</table>
+[![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+[![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
+[![sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)
+[![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
 
 ## How to run the application:
 

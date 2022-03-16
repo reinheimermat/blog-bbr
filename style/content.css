@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 300px;
+    grid-template-rows: 75vh 60vh 10vh;
+    grid-template-areas: "c s"
+                         "ct s"
+                         "f f";
+}
+
+.content {
+    background-color: blue;
+    grid-area: c;
+}
+
+.container {
+    background-color: brown;
+    grid-area: ct;
+}
+
+.sidebar {
+    background-color: aquamarine;
+    grid-area: s;
+    padding: 10px;
+}
+
+.sidebar-container {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+.footer {
+    background-color: blueviolet;
+    grid-area: f;
+}

@@ -13,10 +13,15 @@ body {
     padding: 0px;
 }
 
+section {
+    background-color: #303030;
+}
+
 /* NavBar */
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.425);
+    backdrop-filter: blur(5px);
     color: white;
     justify-content: space-around;
 }
@@ -77,11 +82,23 @@ main {
 }
 
 .d-md-block {
-    background-color: rgba(0, 0, 0, 0.658);
+    background-color: rgba(0, 0, 0, 0.425);
+    backdrop-filter: blur(5px);
     border-radius: 5px;
 }
 
 /* Blog */
+
+.blog_container {
+    background-color: #303030;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
 
 .polaroid {
     background-color: black;
@@ -99,6 +116,7 @@ main {
     height: 290px;
     object-fit: cover;
 }
+<<<<<<< HEAD:style/style.css
 
 .blog_container {
     background-color: #303030;
@@ -156,3 +174,5 @@ main {
     width: 100%;
     background-color: royalblue;
 }
+=======
+>>>>>>> ad06522493c637ced9e5e768d65b190c0a3bf785:src/style/style.css

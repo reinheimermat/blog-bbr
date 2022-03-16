@@ -78,7 +78,6 @@ section {
 
 .carousel-item {
   height: 80vh;
-  min-height: 300px;
   background: no-repeat center center scroll;
   background-size: cover;
 }
@@ -159,7 +158,7 @@ section {
       grid-template-columns: 3fr 40vh;
   -ms-grid-rows: auto auto 10vh;
       grid-template-rows: auto auto 10vh;
-      grid-template-areas: "header header" "conteudo sidebar" "footer footer";
+      grid-template-areas: "header header" "conteudo sidebar" "footer footer";
 }
 
 .main img {
@@ -272,6 +271,9 @@ section {
         grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 0 10px 0 10px;
+  }
+  .carousel-item {
+    height: auto;
   }
 }
 

@@ -80,7 +80,7 @@ section {
 
 .carousel-item {
     height: 80vh;
-    min-height: 300px;
+    // min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     background-size: cover;
@@ -259,6 +259,10 @@ section {
         gap: 20px;
         padding: 0 10px 0 10px;
         
+    }
+
+    .carousel-item {
+        height: auto;
     }
 }
 

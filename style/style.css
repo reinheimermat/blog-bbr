@@ -41,6 +41,11 @@ body {
     color: red;
 }
 
+.navbar-collapse {
+    justify-content: center !important;
+    
+}
+
 /* Main */
 
 main {
@@ -104,4 +109,50 @@ main {
     justify-content: center;
     margin: auto;
     padding: 20px;
+}
+
+/* Conteudo.html */
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto 70vh 10vh;
+    grid-template-areas: "header header"
+                         "conteudo sidebar"
+                         "footer footer";
+}
+
+.main header {
+    grid-area: header;
+    background-color: chocolate;
+}
+
+.main .conteudo {
+    grid-area: conteudo;
+    background-color: cyan;
+}
+
+.main .side-bar {
+    grid-area: sidebar;
+    background-color: darkmagenta;
+}
+
+.main footer {
+    grid-area: footer;
+    background-color: darkred;
+}
+
+/* NavBar */
+
+.main nav a {
+    text-decoration: none;
+}
+
+
+.main nav {
+    list-style: none;
+    text-decoration: none;
+    height: 80px;
+    width: 100%;
+    background-color: royalblue;
 }

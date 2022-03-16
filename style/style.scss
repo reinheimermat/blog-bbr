@@ -1,0 +1,274 @@
+// Fontes
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+// Cores 
+$cinza: #303030;
+$vermelho: red;
+
+// CSS  
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #303030;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: #303030;
+}
+
+section {
+    background-color: #303030;
+}
+
+// NavBar Bootstrap
+.navbar {
+    background-color: rgba(0, 0, 0, 0.425);
+    backdrop-filter: blur(5px);
+    color: white;
+    justify-content: space-around;
+}
+
+.navbar-light {
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+.navbar .navbar-nav li a {
+    color: white !important;
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar .navbar-brand span {
+    color: red !important;
+    font-weight: bold;
+}
+
+.nav-item {
+    text-transform: uppercase ;
+}
+
+.navbar-brand {
+    color: red;
+}
+
+.navbar-collapse {
+    justify-content: center !important;
+    color: red !important;
+}
+
+.nav-item {
+    transition: 1s;
+}
+.nav-item:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+
+// Carousel Bootstrap
+
+.carousel-indicators {
+    background-color: red;
+}
+
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption h5 {
+    color: red;
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+}
+
+.carousel-caption p {
+    padding-bottom: 70px;
+}
+
+.d-md-block {
+    background-color: rgba(0, 0, 0, 0.425);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+// Cards
+
+.blog_container {
+    background-color: #303030;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.polaroid {
+    background-color: black;
+    padding: 15px 15px 40px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.polaroid h2 {
+    color: red;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive; 
+    padding-top: 5px;
+}
+
+.photo {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+.blog_container {
+    background-color: #303030;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+// Pag Conteudo.html
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 40vh;
+    grid-template-rows: auto auto 10vh;
+    grid-template-areas: "header header"
+                         "conteudo sidebar"
+                         "footer footer";
+}
+
+.main img {
+    max-width: 100%;
+    display: block;
+}
+
+.main header {
+    grid-area: header;
+    background-color: chocolate;
+}
+
+// Conteudo
+
+.main .conteudo {
+    grid-area: conteudo;
+    background-color: $cinza;
+    text-align: justify;
+    padding: 60px 10px 20px 10px;
+}
+
+.main .conteudo h1 {
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 2.5em;
+    color: red; 
+    margin: 0;
+}
+
+.main .conteudo h2 {
+    font-size: 1.3em;
+    color: silver;
+}
+
+.main .conteudo p {
+    color: rgb(255, 255, 255);
+    padding-top: 5vh;
+    font-family: 'Roboto';
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.main .conteudo img {
+    background-color: red;
+    border-radius: 10px;
+}
+
+// sideBar
+.main .side-bar {
+    grid-area: sidebar;
+    background-color: #303030;  
+    padding: 60px 10px 0 0;
+}
+
+//sideBar Polaroid
+
+.main .sidebar .polaroid {
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.main .sidebar .polaroid-card {
+    padding: 10px;
+    background-color: black;
+
+    h2 {
+        color: red;
+        font-size: 1.5em;
+        padding: 10px 0 10px 5px
+    }
+
+    p {
+        color: white;
+        padding-left: 5px;
+    }
+}
+
+.polaroid-img {
+    width: 100%;
+    object-fit: cover;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.main footer {
+    grid-area: footer;
+    background-color: darkred;
+}
+
+// media 
+
+@media (max-width: 820px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+    }
+
+    .main .side-bar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 0 10px 0 10px;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .conteudo {
+        padding: 15px;
+    }
+
+    .main .side-bar {
+        grid-template-columns: 1fr;
+    }
+}

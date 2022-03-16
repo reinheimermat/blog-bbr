@@ -1,22 +1,18 @@
 ![header](https://user-images.githubusercontent.com/79872570/158429227-5527f95d-997e-4100-bfd6-38e8cc6dcb8d.png)
 
 
-> Status: Em Desenvolvimento... ⚠️
-
-![Matheus](https://img.shields.io/github/license/reinheimermat/Blog-B.B.R.svg)
-
-[![link-site](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://reinheimermat.github.io/index.html)
+> Status: Em Desenvolvimento... ⚠️ 
 
 ### Blog BBR, Seu blog e portal sobre contéudo barba, cabelo, e muito mais conteúdo masculino!
 
 ## Criadores do projeto:
- + Raul Konrath
- + Matheus Reinheimer
- + Lucas Lisboa
+ + <a href="https://github.com/MrGeniuss">Raul Konrath</a>
+ + <a href="https://github.com/LucasSantosL">Lucas Lisboa</a>
+ + <a href="https://github.com/reinheimermat">Matheus Reinheimer</a>
 
 ## Projeto Hospedado:
 
-* <a href="#">https://reinheimermat.github.io/index.html</a>
+[![link-site](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://reinheimermat.github.io/index.html)
 
 ## Tecnologias Utilizadas:
 

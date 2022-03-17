@@ -179,7 +179,7 @@ section {
       grid-template-columns: 2fr 50vh;
   -ms-grid-rows: auto auto 10vh;
       grid-template-rows: auto auto 10vh;
-      grid-template-areas: "header header" "conteudo sidebar" "footer footer";
+      grid-template-areas: "header header" "conteudo sidebar" "footer footer";
 }
 
 .main img {

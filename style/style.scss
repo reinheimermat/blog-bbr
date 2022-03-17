@@ -293,9 +293,13 @@ section {
         font-size: 1.2em;
         padding-left: 10px;
     }
-    
-    .main .conteudo {
-        font-size: 1em;
+
+    .main .conteudo h1 {
+        font-size: 30px;
+    }
+
+    .main .conteudo h2 {
+        font-size: 20px;
     }
 
     .main .conteudo p {
@@ -311,7 +315,11 @@ section {
     }
 
     .polaroid h2 {
-        font-size: 1.3em;
+        font-size: 25px;
         font-weight: bold;
+    }
+
+    .polaroid p {
+        font-size: 20px;
     }
 }

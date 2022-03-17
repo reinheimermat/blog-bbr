@@ -22,8 +22,6 @@
 [![sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)
 [![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
 
-<center><img src="https://user-images.githubusercontent.com/79872570/158878893-94b8545f-c4b5-4b16-8de3-a8def2c92030.gif" width="100%"></center>
-
-<!-- ![blog_gif](https://user-images.githubusercontent.com/79872570/158877961-c1fa6ad8-cf9c-4fc0-84af-ded660418a6a.gif) -->
+<center><img src="https://user-images.githubusercontent.com/79872570/158878893-94b8545f-c4b5-4b16-8de3-a8def2c92030.gif" ></center>
 
  

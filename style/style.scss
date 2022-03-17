@@ -1,6 +1,10 @@
 // Fontes
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$fonte-principal: 'Bebas Neue', sans-serif;
+$fonte-conteudo: 'Roboto', sans-serif;
+
 // Cores 
 $cinza: #303030;
 $vermelho: red;
@@ -74,13 +78,7 @@ section {
 
 // Carousel Bootstrap
 
-.carousel-indicators {
-    background-color: red;
-}
-
 .carousel-item {
-    height: 80vh;
-    // min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     background-size: cover;
@@ -100,6 +98,7 @@ section {
     background-color: rgba(0, 0, 0, 0.425);
     backdrop-filter: blur(5px);
     border-radius: 5px;
+    margin-bottom: 20%;
 }
 
 // Cards
@@ -139,6 +138,10 @@ section {
     padding-top: 5px;
 }
 
+.polaroid p {
+    font-family: $fonte-conteudo;
+}
+
 .photo {
     width: 100%;
     height: 290px;
@@ -146,6 +149,7 @@ section {
     transition: 0.5s;
     cursor: pointer;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .photo:hover {
@@ -168,7 +172,7 @@ section {
 
 .main {
     display: grid;
-    grid-template-columns: 3fr 40vh;
+    grid-template-columns: 2fr 50vh;
     grid-template-rows: auto auto 10vh;
     grid-template-areas: "header header"
                          "conteudo sidebar"
@@ -182,7 +186,6 @@ section {
 
 .main header {
     grid-area: header;
-    background-color: chocolate;
 }
 
 // Conteudo
@@ -191,7 +194,7 @@ section {
     grid-area: conteudo;
     background-color: $cinza;
     text-align: justify;
-    padding: 60px 10px 20px 10px;
+    padding: 60px 20vh 20px 20vh;
 }
 
 .main .conteudo h1 {
@@ -208,53 +211,39 @@ section {
 
 .main .conteudo p {
     color: rgb(255, 255, 255);
-    padding-top: 5vh;
     font-family: 'Roboto';
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.main .conteudo strong {
+    color: red;
+    font-family: $fonte-conteudo;
+    font-weight: 700;
 }
 
 .main .conteudo img {
-    background-color: red;
+    background-color: black;
     border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.main .conteudo #h2-relacionado {
+    text-align: center;
+    padding-top: 10px;
+    font-family: $fonte-principal;
+    font-weight: 400;
+    font-size: 2em;
+    color: red;
+
 }
 
 // sideBar
+
 .main .side-bar {
     grid-area: sidebar;
     background-color: #303030;  
-    padding: 60px 10px 0 0;
-}
-
-//sideBar Polaroid
-
-.main .sidebar .polaroid {
-    padding: 10px;
-    padding-top: 20px;
-}
-
-.main .sidebar .polaroid-card {
-    padding: 10px;
-    background-color: black;
-
-    h2 {
-        color: red;
-        font-size: 1.5em;
-        padding: 10px 0 10px 5px
-    }
-
-    p {
-        color: white;
-        padding-left: 5px;
-    }
-}
-
-.polaroid-img {
-    width: 100%;
-    object-fit: cover;
-    height: 290px;
-    border-radius: 10px;
-    transition: 0.5s;
+    padding: 60px 32px 0 0;
 }
 
 .main footer {
@@ -279,18 +268,50 @@ section {
         
     }
 
+    .main .conteudo {
+        padding: 80px 10px 20px 10px;
+        font-size: 1.6em;
+    }
+
+    .main .conteudo h2 {
+        padding-bottom: 15px;
+    }
+
     .carousel-item {
         height: auto;
+    }
+
+    .navbar .navbar-brand {
+        color: white !important;
+        font-size: 2em;
     }
 }
 
 @media (max-width: 600px) {
+
+    .navbar .navbar-brand {
+        font-size: 1.2em;
+        padding-left: 10px;
+    }
     
-    .conteudo {
-        padding: 15px;
+    .main .conteudo {
+        font-size: 1em;
+    }
+
+    .main .conteudo p {
+        font-size: 20px;
     }
 
     .main .side-bar {
         grid-template-columns: 1fr;
+    }
+
+    .polaroid {
+        font-size: 1.5em;
+    }
+
+    .polaroid h2 {
+        font-size: 1.3em;
+        font-weight: bold;
     }
 }

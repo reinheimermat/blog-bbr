@@ -22,23 +22,8 @@
 [![sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)
 [![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
 
-## How to run the application:
+<center><img src="https://user-images.githubusercontent.com/79872570/158878893-94b8545f-c4b5-4b16-8de3-a8def2c92030.gif" width="100%"></center>
 
-1) run shell: composer install
-2) run shell: php artisan key:generate
-3) create new Schema MySql
-4) create file .env (can copy from .env.example)
-5) configure your database variables in .env
-6) run shell: php artisan migrate
-7) run shell: php artisan serve
+<!-- ![blog_gif](https://user-images.githubusercontent.com/79872570/158877961-c1fa6ad8-cf9c-4fc0-84af-ded660418a6a.gif) -->
 
-## How to use mail service:
-
-1) create free account in mailtrap
-2) into of mailtrap site, go to My Inbox
-3) go to SMT settigns
-4) choice Laravel option in Integrations
-5) copy and past in your .env
-
-<center><img src="https://user-images.githubusercontent.com/38620899/106393900-5aa85880-63d8-11eb-88f1-07ac30adad80.gif"></center>
  

@@ -120,6 +120,15 @@ section {
   color: white;
   margin-bottom: 10px;
   border-radius: 5px;
+  overflow: hidden;
+}
+
+.polaroid-card {
+  overflow: hidden;
+}
+
+.polaroid-content {
+  overflow: hidden;
 }
 
 .polaroid h2 {
@@ -134,6 +143,17 @@ section {
   height: 290px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.photo:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
 .blog_container {
@@ -243,6 +263,8 @@ section {
      object-fit: cover;
   height: 290px;
   border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .main footer {

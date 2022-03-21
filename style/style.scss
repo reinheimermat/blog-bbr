@@ -323,3 +323,159 @@ section {
         font-size: 20px;
     }
 }
+    
+// CADASTRO.HTML
+
+.login-container {
+    display: flex;
+    padding: 80px 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #303030;
+    height: 100vh;
+}
+
+.article-content {
+    background-color: red;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10vh;
+
+    img {
+        height: 40px;
+        margin-bottom: 9vh;
+    }
+}       
+
+.article-content div {
+    padding-bottom: 45px;
+}
+
+.article-content h2 {
+    font-family: $fonte-principal;
+   
+}
+
+.article-content p {
+    font-family: $fonte-conteudo;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.article-content .btn-logar {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: transparent;
+    padding-top: 5px;
+    margin: 0px 20px;
+    font-family: $fonte-principal;
+    font-size: 1.2em;
+}
+
+// Login
+.article-login {    
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    flex-direction: column; 
+    padding: 10vh;
+}
+
+.article-login .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 25px;
+        margin: 5px 10px 10px 5px;
+    }
+}
+
+.article-login h2 {
+    font-family: $fonte-principal;
+    text-align: center;
+}   
+
+.article-login p {
+    font-family: $fonte-conteudo;
+    color: #b5bbbd;
+}
+
+.article-login form {
+    display: flex;
+    flex-direction: column; 
+}
+
+.article-login form > input {
+    margin-bottom: 10px;
+    border: none;
+    background-color: #b5bbbd;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+    font-family: $fonte-conteudo;
+}
+
+.article-login form > input:hover {
+    background-color: #b5bbbda4;
+}
+
+.article-login button {
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    padding-top: 5px;
+    font-family: $fonte-principal;
+    font-size: 1.2em;
+    border: 2px solid black;
+    margin: 0px 20px;
+}
+
+.article-login button:hover {
+    background-color: rgba(255, 0, 0, 0.685);
+}
+
+@media (max-width: 820px) {
+    .article-content {
+        width: 100vw;
+        align-items: center;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .article-content .btn-logar {
+        width: 200px;
+    }
+
+    .article-content h2 {
+        text-align: center;
+    }
+    
+
+    .article-login {
+        width: 100vw;
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .login-container {
+        padding: 0px;
+    }
+
+    .article-content .btn-logar {
+        letter-spacing: 2px;
+    }
+
+    .article-login {
+        width: 100vw;
+
+        button {
+            letter-spacing: 2px ;
+        }
+    }
+}

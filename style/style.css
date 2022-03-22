@@ -335,6 +335,9 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background-color: #303030;
+  background-image: url(../img/barber_1.jpg);
+  background-repeat: none;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -350,11 +353,13 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10vh;
 }
 
 .article-content img {
-  height: 40px;
   margin-bottom: 9vh;
 }
 
@@ -378,9 +383,9 @@ section {
   border-radius: 20px;
   background-color: transparent;
   padding-top: 5px;
-  margin: 0px 20px;
   font-family: "Bebas Neue", sans-serif;
   font-size: 1.2em;
+  width: 250px;
 }
 
 .article-login {
@@ -394,6 +399,9 @@ section {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .article-login .social {
@@ -441,6 +449,7 @@ section {
   padding: 2px;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+  width: 250px;
 }
 
 .article-login form > input:hover {
@@ -455,7 +464,7 @@ section {
   font-family: "Bebas Neue", sans-serif;
   font-size: 1.2em;
   border: 2px solid black;
-  margin: 0px 20px;
+  width: 200px;
 }
 
 .article-login button:hover {

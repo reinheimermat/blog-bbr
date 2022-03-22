@@ -1,4 +1,4 @@
-// Fontes
+// !Fontes
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -7,7 +7,7 @@ $fonte-conteudo: 'Roboto', sans-serif;
 
 // Cores 
 $cinza: #303030;
-$vermelho: red;
+$vermelho: #ff0000;
 
 // CSS  
 * {
@@ -332,6 +332,9 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     background-color: #303030;
+    background-image: url(../img/barber_1.jpg);
+    background-repeat: none;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -341,10 +344,10 @@ section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
     padding: 10vh;
 
     img {
-        height: 40px;
         margin-bottom: 9vh;
     }
 }       
@@ -370,9 +373,9 @@ section {
     border-radius: 20px;
     background-color: transparent;
     padding-top: 5px;
-    margin: 0px 20px;
     font-family: $fonte-principal;
     font-size: 1.2em;
+    width: 250px;
 }
 
 // Login
@@ -382,6 +385,7 @@ section {
     display: flex;
     flex-direction: column; 
     padding: 10vh;
+    align-items: center;
 }
 
 .article-login .social {
@@ -418,6 +422,7 @@ section {
     padding: 2px;
     text-decoration: none;
     font-family: $fonte-conteudo;
+    width: 250px;
 }
 
 .article-login form > input:hover {
@@ -432,7 +437,7 @@ section {
     font-family: $fonte-principal;
     font-size: 1.2em;
     border: 2px solid black;
-    margin: 0px 20px;
+    width: 200px;
 }
 
 .article-login button:hover {

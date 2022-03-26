@@ -48,6 +48,9 @@ section {
 
 .navbar .navbar-brand {
     color: white !important;
+    font-family: $fonte-principal;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
 }
 
 .navbar .navbar-brand span {
@@ -173,7 +176,7 @@ section {
 .main {
     display: grid;
     grid-template-columns: 2fr 50vh;
-    grid-template-rows: auto auto 10vh;
+    grid-template-rows: auto auto auto;
     grid-template-areas: "header header"
                          "conteudo sidebar"
                          "footer footer";
@@ -247,8 +250,70 @@ section {
 }
 
 .main footer {
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    font-family: $fonte-conteudo;
+    padding-top: 40px;
+    color: white;
     grid-area: footer;
-    background-color: darkred;
+}
+
+.main .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main .footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-family: $fonte-principal;
+    letter-spacing: 2px
+}
+
+.main footer span {
+    color: red;
+}
+
+.main .footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.main .footer-social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.main .footer-social li {
+    margin: 0 10px;
+}
+
+.main .footer-social a {
+    text-align: none;
+}
+
+.main .footer-copy {
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.main .footer-copy p {
+     font-size: 14px;
+     word-spacing: 2px;
+     text-transform: capitalize;
 }
 
 // media 
@@ -508,4 +573,72 @@ input:invalid {
     25% { transform: translateX(4px);   }
     50% { transform: translateX(-4px);  }
     75% {transform: translateX(4px);    }
+}
+
+// TODO: FOOTER 
+
+footer {
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    font-family: $fonte-conteudo;
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-family: $fonte-principal;
+    letter-spacing: 2px
+}
+
+footer span {
+    color: red;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.footer-social li {
+    margin: 0 10px;
+}
+
+.footer-social a {
+    text-align: none;
+}
+
+.footer-copy {
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-copy p {
+     font-size: 14px;
+     word-spacing: 2px;
+     text-transform: capitalize;
 }

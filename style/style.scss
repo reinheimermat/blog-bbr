@@ -178,7 +178,7 @@ section {
     grid-template-columns: 2fr 50vh;
     grid-template-rows: auto auto auto;
     grid-template-areas: "header header"
-                         "conteudo sidebar"
+                         "conteudo conteudo"
                          "footer footer";
 }
 
@@ -241,13 +241,17 @@ section {
 
 }
 
+.main .conteudo .blog_container h1 {
+    color: red !important;
+}
+
 // sideBar
 
-.main .side-bar {
-    grid-area: sidebar;
-    background-color: #303030;  
-    padding: 60px 32px 0 0;
-}
+// .main .side-bar {
+//     grid-area: sidebar;
+//     background-color: #303030;  
+//     padding: 60px 32px 0 0;
+// }
 
 .main footer {
     background-color: black;

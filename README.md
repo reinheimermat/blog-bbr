@@ -14,6 +14,35 @@
 
 [![link-site](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://reinheimermat.github.io/index.html)
 
+## Problemas
++ Blog de barbearia
+
+## Ideia pára resolver o problema 
++ Os clientes não tem um portal com informações e notícias para cuidar da saúde da barba e cabelo masculino.
+
+## Cronograma 
++ Fazer a documentação.
++ Criar o projeto, já organizando.
++ Começar a desenvolver.
++ Ir fazendo testes.
++ Continuar evoluindo o projeto.   
+
+## Definir prioridades (o que deve ser feito primeiro)
++ Organizar o que cada integrante do grupo irá fazer.
++ Pesquisar o conteúdo
++ Fazer o HTML E CSS básico mas funcional.
++ Fazer melhorias com os Frameworks e CSS mais avançado e Javascript.
+
+## Desenvolver as tarefas (prioridades)
++ DOCUMENTAÇÃO
++ CRIAÇÃO DO LOGO (CANVA)
++ HTML 
++ CSS
++ FLEX
++ GRID
++ BOOTSTRAP
++ JAVASCRIPT
+
 ## Tecnologias Utilizadas:
 
 [![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
